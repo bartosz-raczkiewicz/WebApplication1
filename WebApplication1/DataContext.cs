@@ -7,7 +7,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1
 {
-    public class DataContext : DbContext
+    public class DataContext : DbContext, IDataContext
     {
         public virtual DbSet<GrupaProduktu> GrupaProduktu { get; set; }
         public virtual DbSet<PodGrupaProduktu> PodGrupaProduktu { get; set; }

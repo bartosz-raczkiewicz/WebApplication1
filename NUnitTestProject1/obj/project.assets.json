@@ -5355,11 +5355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raczk\\source\\repos\\WebApplication1\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\private-repos\\WebApplication1\\NUnitTestProject1\\NUnitTestProject1.csproj",
       "projectName": "NUnitTestProject1",
-      "projectPath": "C:\\Users\\raczk\\source\\repos\\WebApplication1\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "projectPath": "C:\\private-repos\\WebApplication1\\NUnitTestProject1\\NUnitTestProject1.csproj",
       "packagesPath": "C:\\Users\\raczk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raczk\\source\\repos\\WebApplication1\\NUnitTestProject1\\obj\\",
+      "outputPath": "C:\\private-repos\\WebApplication1\\NUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5380,8 +5380,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\raczk\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
-              "projectPath": "C:\\Users\\raczk\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj"
+            "C:\\private-repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+              "projectPath": "C:\\private-repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj"
             }
           }
         }

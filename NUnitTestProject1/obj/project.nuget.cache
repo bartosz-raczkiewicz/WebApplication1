@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a4/5jMkoGB8rJYAki5XAnU9aepea46wtCurTnSqbLTnOV8x3kvr3zzGYNQQVIbnf067cTbPwiLe1WzrUnVy4wg==",
+  "dgSpecHash": "cm/sbaaiw/H3h3GP22xyU9w+W1KS7jbrxlLs/msbLEKsgBs3BN1HYYbjgdc5PA3cpabW1aHWOOdGHS9AxnpJlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\raczk\\source\\repos\\WebApplication1\\NUnitTestProject1\\NUnitTestProject1.csproj",
+  "projectFilePath": "C:\\private-repos\\WebApplication1\\NUnitTestProject1\\NUnitTestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raczk\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\raczk\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

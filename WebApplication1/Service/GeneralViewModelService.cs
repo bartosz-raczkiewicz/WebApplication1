@@ -19,8 +19,8 @@ namespace WebApplication1.Service
             foreach (var singleKlasyfikacjaProduktu in klasyfikacjaProduktu)
             {
                 var produkty = dataContext.Produkt.Where(p => p.Id_KlasyfikacjiProduktu == singleKlasyfikacjaProduktu.Id).ToList();
-                var podGrupyProduktu = produkty.Select(p => p.PodGrupaProduktu).Distinct().ToList();
-                var grupyProduktu = podGrupyProduktu.Select(p => p.GrupaProduktu).Distinct().ToList();
+                var podGrupyProduktu = dataContext.PodGrupaProduktu.Where(p => produkty.Select(p => p.Id_PogrupyProduktu).Contains(p.Id)).ToList();
+                var grupyProduktu = dataContext.GrupaProduktu.Where(g=> podGrupyProduktu.Select(p => p.ID_GrupyProduktu).Contains(g.Id)).ToList();
 
                 var grupaViewModels = GetGrupaViewModels(grupyProduktu, podGrupyProduktu, produkty, ofertyProduktu);
 

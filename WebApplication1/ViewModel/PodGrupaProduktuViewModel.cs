@@ -12,6 +12,6 @@ namespace WebApplication1.ViewModel
 
         public List<ProduktViewModel> ProduktViewModel { get; set; }
         public decimal PrzedUpustem => ProduktViewModel.Sum(x => x.PrzedUpustem);
-        public decimal PoUpuscie => ProduktViewModel.Sum(x => x.PrzedUpustem);
+        public decimal PoUpuscie => ProduktViewModel.Sum(x => x.PoUpuscie);
     }
 }
